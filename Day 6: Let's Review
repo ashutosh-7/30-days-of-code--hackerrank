@@ -1,0 +1,68 @@
+
+𝐏𝐫𝐨𝐛𝐥𝐞𝐦----
+
+𝐈𝐧 𝐡𝐚𝐜𝐤𝐞𝐫𝐫𝐚𝐧𝐤 𝐩𝐫𝐚𝐜𝐭𝐢𝐜𝐞 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐨𝐟 𝟑𝟎 𝐃𝐚𝐲𝐬 𝐨𝐟 𝐜𝐨𝐝𝐞.
+
+
+
+
+𝐒𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬----
+
+
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+void hacker()
+{
+   string s;int j;
+  
+      getline(cin,s);
+   for(j=0;j<s.size();j++)
+    {
+        cout<<s[j];
+        j++;
+    }
+    cout<<" "; 
+    for(j=1;j<s.size();j++)
+    {
+        cout<<s[j];
+        j++;
+    }
+        
+
+}
+
+int main() {
+    
+    int n,i,j;
+    cin>>n;
+    string s;
+    getline(cin,s);
+      getline(cin,s);
+    
+    for(j=0;j<s.size();j++)
+    {
+        cout<<s[j];
+        j++;
+    }
+    cout<<" "; 
+    for(j=1;j<s.size();j++)
+    {
+        cout<<s[j];
+        j++;
+    }
+        
+        
+   for(i=0;i<n-1;i++)
+    {
+       cout<<endl;
+        hacker();
+   }
+    
+    
+    return 0;
+}
