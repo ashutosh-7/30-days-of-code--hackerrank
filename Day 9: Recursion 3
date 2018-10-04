@@ -1,0 +1,35 @@
+𝐏𝐫𝐨𝐛𝐥𝐞𝐦----
+
+𝐈𝐧 𝐡𝐚𝐜𝐤𝐞𝐫𝐫𝐚𝐧𝐤 𝐩𝐫𝐚𝐜𝐭𝐢𝐜𝐞 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐨𝐟 𝟑𝟎 𝐃𝐚𝐲𝐬 𝐨𝐟 𝐜𝐨𝐝𝐞.
+
+
+
+
+𝐒𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬-------------------------------------------------------------------
+
+
+#include <iostream>
+using namespace std;
+
+int factorial(int num)
+{
+    int y=0;
+    if(num==1 || num==0)
+    {
+        return 1;
+    }
+    else
+    {
+    y= num*factorial(num-1);
+    }
+
+    return y;
+    
+}
+
+int main() {
+int n;
+cin>>n;int y=0;
+cout<<factorial(n);
+    return 0;
+}
